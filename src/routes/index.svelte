@@ -50,6 +50,8 @@
 
 	<img alt="Success Kid" src="{successkid}">
 	<figcaption>Have fun with Sapper!</figcaption>
+
+	<video class="" type="video/mp4" src="" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;"></video>
 </figure>
 
 
