@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "WompMacho.com",
+  "description": "Personal Website for WompMacho",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

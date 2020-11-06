@@ -1,5 +1,7 @@
 <script>
 	import successkid from 'images/successkid.jpg';
+	import logo_512 from 'images/logo-512.png';
+
 </script>
 
 <style>
@@ -37,14 +39,20 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>WompMacho.com</title>
 </svelte:head>
 
 <h1>Great success!</h1>
 
-<figure>
+<figure class="">
+	<img src="{logo_512}" alt="">
+
+
 	<img alt="Success Kid" src="{successkid}">
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+
+<p><strong>Try editing this file goteem to test live reloading.</strong></p>
+
+
