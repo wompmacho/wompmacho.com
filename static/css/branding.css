@@ -1,0 +1,22 @@
+/* Brand */
+.brand {
+	font-family: "Viner Hand ITC";
+	animation: brand_name 10s ease infinite alternate;
+}
+
+.branding_contain {
+	height: 40vh;
+	width: 40vw;
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Brand on hover */
+.brand:hover,
+.brand:focus {
+	color: #519aba;
+	animation: size-pulse 2s infinite;
+}
