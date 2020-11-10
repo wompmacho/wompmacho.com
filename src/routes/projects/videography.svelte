@@ -40,9 +40,12 @@
 		height: 100%;
 	}
 
-    p{
-        margin: auto;
-    }
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
 	
     hr{
 		background-color: red;

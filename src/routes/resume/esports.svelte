@@ -3,7 +3,7 @@
 </svelte:head>
 
 <figure class="">
-	<video class="shadow rounded" type="video/mp4" src="video/overwatch_clips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
+	<video class="shadow rounded" type="video/mp4" src="https://django.wompmacho.com/static/video/overwatch_clips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
 	<!-- <figcaption>sup</figcaption> -->
 </figure>
 
@@ -54,6 +54,13 @@
 </p>
 
 <style>
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
+
 	h1{
 		text-align: center;
 	}

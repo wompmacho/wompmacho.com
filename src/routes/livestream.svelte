@@ -3,29 +3,27 @@
 </svelte:head>
 
 <figure class="">
-	<video class="shadow rounded" type="video/mp4" src="video/streamClips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
+	<video class="shadow rounded" type="video/mp4" src="https://django.wompmacho.com/static/video/streamClips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
 	<!-- <figcaption>Clips From Stream</figcaption> -->
 </figure>
 
 <h1>Live Stream</h1>
-
+<div class="container">
+	<a href="https://discord.gg/pVNnTDA"><img src="https://img.shields.io/discord/238458588169895937?label=Discord&style=plastic" alt="Discord Members Online Shield"></a>
+</div>
 <p>
 	See Discord for latest Announcements and Go-Live Notifications
 </p>
-<a href="https://discord.gg/pVNnTDA"><img src="https://img.shields.io/discord/238458588169895937?label=Discord&style=plastic" alt="Discord Members Online Shield"></a>
 
 <hr>
-	<h4>
+	<h3>
 		Sep 2016 - Present
-	</h4>
+	</h3>
 
 	<p>
 		I have tried to create a fun and unique livestream experience on various streaming platforms. As a result I have developed skills I never thought I would have obtained. It has been hard working to develop my stage. I found myself working in social media engagement, content creation, sound engineering, graphic design, lighting and filmography, animation, coding and dabbling in a multitude of other areas. Over the last few years I have dedicated everything I have to further enhance my stream and become a better entertainer. 
-
-	</p>
-		
-	<p> 
 		I am just having too much fun man.
+
 	</p>
 
 	<p>
@@ -43,15 +41,34 @@
 </div>
 
 <style>
-	hr{
-		background-color: red;
-		max-width: 20vw;
+	.container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+	h1{
+		text-align: center;
+		font-size: x-large;
 	}
 
 	h3{
-		font-size: large;
+		margin-left: 2em;
+		font-size: medium;
 		text-align: center;
 		margin: 1em;
+	}
+
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
+
+	hr{
+		background-color: red;
+		max-width: 20vw;
 	}
 
 	a{

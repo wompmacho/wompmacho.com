@@ -2,6 +2,7 @@
 	<title>About</title>
 </svelte:head>
 
+<img class="rounded" src="./img/old_photos/desk_colored.jpg" alt="django gif">
 
 <h2>(•_•)</h2>
 
@@ -38,6 +39,11 @@
 <hr>
 
 <style>
+	img{
+        width: 100%;
+        padding: 1em;
+    }
+
 	.container{
 		display: inline-flexbox;
 	}
@@ -56,8 +62,7 @@
 	}
 
 	h2{
-		font-size: 5em;
-		margin: 1em;
+		font-size: large;
 		text-align: center;
 		display: block;
 	}

@@ -6,14 +6,27 @@
 
 <!-- Datacenter Operations Engineer -->
 <h3 class="">
-	GIG Description -
-	<span class="twitter">Company</span>
+	Media - <span class="">Melanie Colley Realty</span>
 </h3>
-<span class="twitterIcon right">Special icon</span>
+<span class="iconHere"></span>
 
-<h4 class="">March 2016 - Sep 2017</h4>
+<h4 class="">March 2020 - Current</h4>
+
 <p class="">
-    Info about the consulting gig
+	Social Media Managment, Content Creation, Website Development, Design & SEO, Facebook Ads/Marketing.
+</p>
+
+<hr>
+
+<h3 class="">
+	Media - <span class="">Tabora Farms & Winery</span>
+</h3>
+<span class="iconHere"></span>
+
+<h4 class="">Febuary 2019 - June 2020</h4>
+
+<p class="">
+	Social Media Managment, Website Development, Design & SEO. Tax & Licensing for Wine in multiple States. 
 </p>
 
 <hr>
@@ -25,5 +38,12 @@
 	hr{
 		background-color: red;
 		max-width: 20vw;
+	}
+
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
 	}
 </style>

@@ -21,9 +21,12 @@ I have had many iterations of my personal websites. I mostly use it to collect m
 <a rel=prefetch href="https://django.wompmacho.com/super_micro/"><i class="rounded fab fa-python fa-3x"></i></a>
 
 <style>
-    p{
-        margin: auto;
-    }
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
 
     a{
         margin-top: 1em;

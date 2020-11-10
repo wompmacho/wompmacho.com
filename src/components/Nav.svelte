@@ -1,6 +1,5 @@
 <script>
 	import Social from '../components/Social.svelte';
-	import 'bootstrap/dist/css/bootstrap.min.css';
 	export let segment;
 </script>
 

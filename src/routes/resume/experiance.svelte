@@ -108,9 +108,17 @@
 
 
 <style>
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
+	
 	h1{
 		text-align: center;
 	}
+
 	hr{
 		background-color: red;
 		max-width: 20vw;

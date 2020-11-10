@@ -27,6 +27,13 @@
 <h5>Click on page to enable permissions and start the tuner</h5>
 
 <style>
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
+
     #tuner_sketch{
         height: 50vh;
         width: calc(50vh / 1.5);
