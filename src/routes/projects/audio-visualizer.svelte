@@ -50,11 +50,12 @@
 		max-width: 20vw;
 	}
 
-    p{
-        max-width: 70vw;
-        margin: auto;
-        padding-bottom: 1em;
-    }
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
 
     h5{
         font-size: smaller;

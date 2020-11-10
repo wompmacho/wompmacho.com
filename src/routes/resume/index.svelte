@@ -3,10 +3,24 @@
 </svelte:head>
 
 
-<p>If you are seeing this, you are at my resume Index</p>
+<p>If you are seeing this, you have reached the index of my Resume.</p>
+
+<p>
+    Welcome.
+</p>
+
+<hr>
 
 <style>
-    p{
-        margin: 1em;
-    }
+    hr{
+		background-color: red;
+		max-width: 20vw;
+	}
+
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
 </style>

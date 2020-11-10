@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About Wompchat Chrome Extension</title>
+	<title>Wompchat Chrome Extension</title>
 </svelte:head>
 
 
@@ -28,7 +28,7 @@
 </p>
 
 <h3>
-    I decided I didn't want to wait and built out something of my own. Find is on the Chrome Store Below. 
+    I decided I didn't want to wait and built out something of my own. Find the extension on the Chrome Store Below. 
 </h3>
 
 <hr>
@@ -41,10 +41,12 @@
         height: 3.5em;
     }
 
-    p{
-        margin: auto;
-        padding: 1em;
-    }
+	p{
+		margin: 1em;
+		border-radius: 5px;
+		padding: 1em;
+		background-color: #333333;
+	}
 
     a{
         margin-top: 1em;
@@ -68,10 +70,6 @@
         font-size: smaller;
         text-align: center;
         max-width: 30vw;
-        margin: auto;
-    }
-
-    p{
         margin: auto;
     }
 

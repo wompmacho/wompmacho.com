@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>Wompchat Chrome Extension About</title>
+	<title>Wompchat Chrome Extension</title>
 </svelte:head>
 
 <h1>WompChat</h1>
 
-<img title="WompChat" class="gif rounded" src="/img/womp-chat/full512.png" alt="WompChat Logo" />
+<img title="WompChat" class="gif rounded" src="./img/womp-chat/full512.png" alt="WompChat Logo" />
 
 <h2>Welcome To The Chat</h2>
 
