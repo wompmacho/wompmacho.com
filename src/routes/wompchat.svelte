@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>Wompchat Chrome Extension Page</title>
+	<title>Wompchat Chrome Extension About</title>
 </svelte:head>
 
 <h1>WompChat</h1>
 
-<img class="gif rounded" src="" alt="WompChat Logo" />
+<img title="WompChat" class="gif rounded" src="/img/womp-chat/full512.png" alt="WompChat Logo" />
 
 <h2>Welcome To The Chat</h2>
 
@@ -34,7 +34,7 @@
     <a class="rounded" href="https://discord.gg/pVNnTDA" title="Join our Discord Community"><button type="button" class="btn btn-dark">Join our Discord Community</button></a>
     <a class="rounded" href="https://streamelements.com/wompmacho-5882/tip" title="Donations"><button type="button" class="btn btn-dark">Donations</button></a>
     <a class="rounded" href="https://www.youtube.com/wompmacho" title="Youtube"><button type="button" class="btn btn-dark">Youtube</button></a>
-    <a class="rounded" href="mailto:wompmacho@gmail.com"><button type="button" class="btn btn-dark">Contact Me</button></a>
+    <a class="rounded" href="mailto:wompmacho@gmail.com" title="Contact"><button type="button" class="btn btn-dark">Contact Me</button></a>
 </div>
 
 <hr>
@@ -88,7 +88,7 @@
   Don't forget to pin this extension for easy access. 
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/womp/assets/gif/pinYourExtension.gif" alt="pinYourExtension.gif" />
+<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/pinYourExtension.gif" alt="pinYourExtension.gif" />
 
 <p>
   Youtube Live is slow to load its pages currently. 
@@ -96,26 +96,26 @@
   Once you see the Emote Panel Icon you can open the Emote Selection Panel.
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/womp/assets/gif/emotesMenu.gif" alt="emotesMenu.gif" />
+<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/emotesMenu.gif" alt="emotesMenu.gif" />
 
 <p class="highlight">
   Enhanced Theater Mode Is Now Available. Just click the check in the option panel and refresh your page.
 </p>
 
-<img class="gif rounded" style="height: 540px; width: 960px;" src="https://github.com/wompmacho/womp/blob/main/cdn/assets/gif/theaterMode.gif?raw=true" alt="theaterMode.gif" />
+<img class="gif rounded" style="height: 540px; width: 960px;" src="https://github.com/wompmacho/wompchat/blob/main/cdn/assets/gif/theaterMode.gif?raw=true" alt="theaterMode.gif" />
 
 <p>        
   Over around 500 Top and Trending Emotes are loaded from popular sites. 
   You can Enable/Disable them in the Options Menu.
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/womp/assets/gif/optionsMenu.gif" alt="optionsMenu.gif" />
+<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/optionsMenu.gif" alt="optionsMenu.gif" />
 
 <p>
   Can Also Click on UserNames To Autofill an @ Notification
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/womp/assets/gif/clickUserNamesToAtThem.gif" alt="clickUserNamesToAtThem.gif" />
+<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/clickUserNamesToAtThem.gif" alt="clickUserNamesToAtThem.gif" />
  
 <h3>more on the way, but for now...</h3>
 
@@ -123,11 +123,19 @@
 
 
 <style>
+    .btn-dark{
+        background-color: #474748 !important;
+    }
+    .btn-dark:hover{
+        background-color: #323233 !important;
+    }
+
     .highlight{
         font-weight:700;
         color: #00ff00;
         text-align: center;
     }
+
     .container{
         display: flex;
         justify-content: center;
@@ -135,6 +143,7 @@
     }
     
     h1{
+        display: none;
         font-size: xx-large;
         text-align: center;
     }

@@ -7,16 +7,16 @@
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<li class="nav-item"><a class="nav-item" rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" href=".">WompMacho</a></li>
+	<li class="nav-item rounded"><a class="nav-item" rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" href=".">WompMacho</a></li>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
   
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  <ul class="navbar-nav mr-auto">
-		<li class="nav-item"><a class="nav-link" rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About</a></li>
-		<li class="nav-item"><a class="nav-link" rel=prefetch aria-current="{segment === 'livestream' ? 'page' : undefined}" href="livestream">Live Stream</a></li>
-		<li class="nav-item"><a class="nav-link" rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">Fun Stuff</a></li>
+		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About</a></li>
+		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'livestream' ? 'page' : undefined}" href="livestream">Live Stream</a></li>
+		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">Fun Stuff</a></li>
 	  </ul>
 	  <Social></Social>
 	</div>

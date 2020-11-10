@@ -27,9 +27,13 @@
 
 <hr>
 
-<a class="rounded" rel=prefetch href="https://chrome.google.com/webstore/search/wompmacho"><img src="img/womp-chat/icon48.png" alt="WompChat Icon"></a>
+<a class="rounded" rel=prefetch href="https://chrome.google.com/webstore/search/wompmacho"><img class="logo_icon" src="img/womp-chat/icon512.png" alt="WompChat Icon"></a>
 
 <style>
+    .logo_icon{
+        height: 3.5em;
+    }
+
     p{
         margin: auto;
         padding: 1em;
@@ -55,9 +59,9 @@
 
     h3{
         font-size: smaller;
-        margin: 1em;
         text-align: center;
         max-width: 20vw;
+        margin: auto;
     }
 
     p{
