@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
-    "export": "sapper export --legacy",
+    "export": "sapper export",
     "start": "node __sapper__/build"
   },
   "dependencies": {
@@ -15,8 +15,7 @@
     "ml5": "^0.6.0",
     "p5": "^1.1.9",
     "polka": "next",
-    "sirv": "^1.0.0",
-    "sveltestrap": "^3.9.5"
+    "sirv": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
