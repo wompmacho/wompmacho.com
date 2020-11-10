@@ -1,34 +1,19 @@
-<script context="module">
-	export function preload() {
-		return this.fetch(`projects.json`).then(r => r.json()).then(posts => {
-			return { posts };
-		});
-	}
-</script>
-
-<script>
-	export let posts;
-</script>
-
-<style>
-	ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
-	}
-</style>
-
 <svelte:head>
-	<title>Projects</title>
+	<title>Past and Current Projects</title>
 </svelte:head>
 
-<h1>Past Projects</h1>
+<h1>Past and Current Projects</h1>
 
-<ul>
-	{#each posts as post}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-		<li><a rel="prefetch" href="projects/{post.slug}">{post.title}</a></li>
-	{/each}
-</ul>
+<figure class="">
+	<video class="shadow rounded" type="video/mp4" src="video/ledCube.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of LED Cube I Made"></video>
+	<figcaption>Led Cube I made on Live Stream</figcaption>
+</figure>
+
+<style>
+	h1{
+		text-align: center;
+	}
+	figcaption{
+		text-align: center;
+	}
+</style>

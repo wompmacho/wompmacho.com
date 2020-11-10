@@ -1,15 +1,37 @@
 <script>
-	export let segment;
+	//export let segment;
 	import Social from '../components/Social.svelte';
-
+	import 'bootstrap/dist/css/bootstrap.min.css';
+	export let segment;
+	
 </script>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<li class="nav-item"><a class="nav-item" rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" href=".">WompMacho</a></li>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item"><a class="nav-link" rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About</a></li>
+		<li class="nav-item"><a class="nav-link" rel=prefetch aria-current="{segment === 'livestream' ? 'page' : undefined}" href="livestream">Live Stream</a></li>
+		<li class="nav-item"><a class="nav-link" rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">Fun Stuff</a></li>
+	  </ul>
+	  <Social></Social>
+	</div>
+  </nav>
+
 <style>
+
+	.navbar-collapse{
+		text-align: center;
+	}
+
 	nav {
 		background-color: #323233 !important;
 		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0 1em;
+		font-weight: 400;
 	}
 
 	ul {
@@ -49,30 +71,9 @@
 	}
 
 	a {
-		color: #cccccc;
+		color: #cccccc !important;
 		text-decoration: none;
 		padding: 1em 0.5em;
 		display: block;
 	}
 </style>
-
-<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-		Menu
-		<i class="fas fa-bars"></i>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav">
-			<li class=""><a class="" aria-current="{segment === undefined ? 'page' : undefined}" href=".">WompMacho</a></li>
-			<li class=""><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
-			<li class=""><a aria-current="{segment === 'livestream' ? 'page' : undefined}" href="livestream">Live Stream</a></li>
-			<li class=""><a aria-current="{segment === 'esports' ? 'page' : undefined}" href="esports">esports</a></li>
-			<li class=""><a aria-current="{segment === 'videography' ? 'page' : undefined}" href="videography">videography</a></li>
-
-			<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-				the blog data when we hover over the link or tap it on a touchscreen -->
-			<li><a rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">projects</a></li>
-		</ul>
-	</div>
-	<Social></Social>
-</nav>

@@ -1,8 +1,16 @@
 <script>
-	import Nav from '../components/Nav.svelte';
-	import Footer from '../components/Footer.svelte';
+    import ResumeNav from '../../components/Resume_Nav.svelte';
 	export let segment;
 </script>
+
+
+<ResumeNav {segment}></ResumeNav>
+
+<main class="shadow p-3 mb-5 bg-white rounded">
+	<slot></slot>
+</main>
+
+<div class="spacer"></div>
 
 <style>
 	main {
@@ -14,18 +22,8 @@
 		box-sizing: border-box;
 		margin-top: 1em;
 	}
+
 	.spacer{
 		height: 5vh;
 	}
 </style>
-
-<Nav {segment}></Nav>
-
-<main class="shadow p-3 mb-5 bg-white rounded">
-	<slot></slot>
-</main>
-
-<div class="spacer"></div>
-
-
-<Footer></Footer>

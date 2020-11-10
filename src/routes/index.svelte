@@ -1,6 +1,6 @@
 <script>
-	import successkid from 'images/successkid.jpg';
-	import logo_512 from 'images/logo-512.png';
+
+	import { listen_dev } from "svelte/internal";
 
 </script>
 
@@ -21,20 +21,14 @@
 		margin: 0 0 1em 0;
 	}
 
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
 	p {
 		margin: 1em auto;
 	}
 
 	@media (min-width: 480px) {
-		h1 {
+		/* h1 {
 			font-size: 4em;
-		}
+		} */
 	}
 </style>
 
@@ -42,19 +36,13 @@
 	<title>WompMacho.com</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
 <figure class="">
-	<img src="{logo_512}" alt="">
-
-
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-
-	<video class="" type="video/mp4" src="" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;"></video>
+	<video class="shadow rounded" type="video/mp4" src="video/streamClips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
+	<!-- <figcaption>Caption</figcaption> -->
 </figure>
 
+<p><strong></strong></p>
 
-<p><strong>Try editing this file goteem to test live reloading.</strong></p>
+<h1>wadup fool</h1>
 
-
+<p>Eventually This will be replaced with an embed of the stream when live. Working on other things atm.</p>
