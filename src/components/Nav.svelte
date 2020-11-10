@@ -1,9 +1,7 @@
 <script>
-	//export let segment;
 	import Social from '../components/Social.svelte';
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	export let segment;
-	
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

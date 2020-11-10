@@ -47,13 +47,17 @@
 		background-color: red;
 		max-width: 20vw;
 	}
+
 	h3{
+		font-size: large;
 		text-align: center;
 		margin: 1em;
 	}
+
 	a{
         color: #00ff00;
     }
+	
     a:hover{
         color: red;
     }

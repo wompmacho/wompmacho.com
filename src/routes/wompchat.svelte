@@ -144,12 +144,10 @@
     
     h1{
         display: none;
-        font-size: xx-large;
-        text-align: center;
     }
 
     h2{
-        font-size: x-large;
+        font-size: xx-large;
         text-align: center;
     }
 

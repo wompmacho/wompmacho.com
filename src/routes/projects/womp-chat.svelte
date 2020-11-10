@@ -2,7 +2,13 @@
 	<title>About Wompchat Chrome Extension</title>
 </svelte:head>
 
+
 <img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/womp/assets/gif/emotesMenu.gif" alt="WompChat Emote Menu Gif">
+
+
+<a class="rounded" rel=prefetch href="/wompchat"><img class="logo_icon" src="img/womp-chat/icon512.png" alt="WompChat Icon"></a>
+
+<h3>WompChat Extension Website</h3>
 
 <hr>
 
@@ -27,7 +33,8 @@
 
 <hr>
 
-<a class="rounded" rel=prefetch href="https://chrome.google.com/webstore/search/wompmacho"><img class="logo_icon" src="img/womp-chat/icon512.png" alt="WompChat Icon"></a>
+<a rel=prefetch href="https://chrome.google.com/webstore/search/wompmacho"><i class="rounded fab fa-chrome fa-3x"></i></a>
+
 
 <style>
     .logo_icon{
@@ -60,7 +67,7 @@
     h3{
         font-size: smaller;
         text-align: center;
-        max-width: 20vw;
+        max-width: 30vw;
         margin: auto;
     }
 
