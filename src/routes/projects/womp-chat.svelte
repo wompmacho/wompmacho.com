@@ -3,7 +3,7 @@
 </svelte:head>
 
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/womp/assets/gif/emotesMenu.gif" alt="WompChat Emote Menu Gif">
+<img class="gif rounded" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/gif/emotesMenu.gif" alt="WompChat Emote Menu Gif">
 
 
 <a class="rounded" rel=prefetch href="/wompchat"><img class="logo_icon" src="img/womp-chat/icon512.png" alt="WompChat Icon"></a>

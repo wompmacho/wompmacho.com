@@ -3,7 +3,7 @@
 </svelte:head>
 
 <figure class="">
-	<video class="shadow rounded" type="video/mp4" src="https://django.wompmacho.com/static/video/streamClips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
+	<video class="shadow rounded" type="video/mp4" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/womp-website/video/streamClips.mp4" autoplay="true" loop="true" video muted="true" style="height: 100%; width: 100%; object-fit: cover;" alt="Video Of Clips From Live Stream"></video>
 	<!-- <figcaption>Clips From Stream</figcaption> -->
 </figure>
 

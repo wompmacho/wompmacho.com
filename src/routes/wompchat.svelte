@@ -22,7 +22,7 @@
     <a href="https://discord.gg/pVNnTDA">
       <img class="shield" src="https://img.shields.io/discord/238458588169895937?label=Discord&style=plastic" alt="discord shield.io" />
     </a>
-    <a href="https://cdn.jsdelivr.net/gh/wompmacho/womp/src/assets/img/btc.JPG">
+    <a href="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/img/btc.JPG">
       <img class="shield" src="https://img.shields.io/static/v1?label=BTC&style=plastic&message=3QkKHVyT1nZLEeH8f77bUhXorXKPQs5gzN&color=red" alt="BTC shield.io" />
     </a>
     <a href="https://github.com/wompmacho/womp">
@@ -88,7 +88,7 @@
   Don't forget to pin this extension for easy access. 
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/pinYourExtension.gif" alt="pinYourExtension.gif" />
+<img class="gif rounded" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/gif/pinYourExtension.gif" alt="pinYourExtension.gif" />
 
 <p>
   Youtube Live is slow to load its pages currently. 
@@ -96,26 +96,26 @@
   Once you see the Emote Panel Icon you can open the Emote Selection Panel.
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/emotesMenu.gif" alt="emotesMenu.gif" />
+<img class="gif rounded" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/gif/emotesMenu.gif" alt="emotesMenu.gif" />
 
 <p class="highlight">
   Enhanced Theater Mode Is Now Available. Just click the check in the option panel and refresh your page.
 </p>
 
-<img class="gif rounded" style="height: 540px; width: 960px;" src="https://github.com/wompmacho/wompchat/blob/main/cdn/assets/gif/theaterMode.gif?raw=true" alt="theaterMode.gif" />
+<img class="gif rounded" style="height: 540px; width: 960px;" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/gif/theaterMode.gif" alt="theaterMode.gif" />
 
 <p>        
   Over around 500 Top and Trending Emotes are loaded from popular sites. 
   You can Enable/Disable them in the Options Menu.
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/optionsMenu.gif" alt="optionsMenu.gif" />
+<img class="gif rounded" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/gif/optionsMenu.gif" alt="optionsMenu.gif" />
 
 <p>
   Can Also Click on UserNames To Autofill an @ Notification
 </p>
 
-<img class="gif rounded" src="https://cdn.jsdelivr.net/gh/wompmacho/wompchat/assets/gif/clickUserNamesToAtThem.gif" alt="clickUserNamesToAtThem.gif" />
+<img class="gif rounded" src="https://storage.googleapis.com/womp-website_cloudbuild/cdn/wompchat/gif/clickUserNamesToAtThem.gif" alt="clickUserNamesToAtThem.gif" />
  
 <h3>more on the way, but for now...</h3>
 
