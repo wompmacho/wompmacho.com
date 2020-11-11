@@ -4,7 +4,7 @@
 
 <img class="rounded" src="./img/old_photos/swordColorBalenced_1.jpg" alt="django gif">
 
-<h1>wadup fool</h1>
+<h1>yo</h1>
 
 <div class="container rounded">
 	<p>Eventually This will be replaced with an embed of the stream when live. Working on other things atm.</p>
