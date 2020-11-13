@@ -14,7 +14,6 @@
 
 <style>
 	.innerMain{
-		display: inline-flex;
 		width: 100%;
 	}
 
