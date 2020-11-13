@@ -3,7 +3,7 @@
 </script>
 
 <ul class="navbar-nav shadow rounded">
-	<li class="rounded"><a rel=prefetch aria-current="{segment === 'womp-chat' ? 'page' : undefined}" href="/projects/womp-chat">WompChat Chrome Extension</a></li>
+	<li class="rounded"><a rel=prefetch aria-current="{segment === 'womp-chat' ? 'page' : undefined}" href="/projects/womp-chat">WompChat</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'this-website' ? 'page' : undefined}" href="/projects/this-website">This Site</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'django-site' ? 'page' : undefined}" href="/projects/django-site">Django Site</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'videography' ? 'page' : undefined}" href="/projects/videography">Videography</a></li>
@@ -25,7 +25,7 @@
 	ul {
 		margin: 0;
 		padding: 0;
-        flex-direction: column;
+        flex-direction: row;
         background-color: #323233;
 		height: 100%;
 	}
