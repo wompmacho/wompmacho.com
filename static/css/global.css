@@ -30,6 +30,13 @@ code {
 	border-radius: 2px;
 }
 
+hr{
+	background-color: red;
+	max-width: 20vw;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 @media (min-width: 400px) {
 	body {
 		font-size: 16px;

@@ -17,20 +17,22 @@
 
 <h1>Audio Visualizer</h1>
 
-<p>
-    A Javascript web application utilizing the P5.js library to
-    create a visual interpretation of audio. This takes input
-    via microphone or audio being played on client webpage and uses the
-    amplitude of the frequencies to animate lines that is
-    translated into little circles. 
-</p>
-<p>
-    These circles change color
-    based on the amplitude and fade to alpha when levels are
-    lowered. There is additional CSS animations assisting in the
-    coloring/opacity of the brand name and size manipulation to
-    give the “pulse effect”.
-</p>
+<div class="container shadow rounded">
+    <p>
+        A Javascript web application utilizing the P5.js library to
+        create a visual interpretation of audio. This takes input
+        via microphone or audio being played on client webpage and uses the
+        amplitude of the frequencies to animate lines that is
+        translated into little circles. 
+    </p>
+    <p>
+        These circles change color
+        based on the amplitude and fade to alpha when levels are
+        lowered. There is additional CSS animations assisting in the
+        coloring/opacity of the brand name and size manipulation to
+        give the “pulse effect”.
+    </p>
+</div>
 
 <hr>
 
@@ -39,22 +41,38 @@
     input.
 </h5>
 
+<a rel=prefetch href="https://github.com/wompmacho/audio-visualizer"><i class="fab fa-github fa-3x"></i></a>
+
+
 <style>
+    a{
+        margin-top: 1em;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #00ff00;
+    }
+    
+    a:hover{
+        background-color: #1e1e1e;
+        color: red;
+    }
+
+    .container{
+        padding: 1em;
+		background-color: #333333;
+    }
+
     h1{
         font-size: x-large;
         margin: 1em;
+        text-align: center;
     }
 
 	hr{
 		background-color: red;
 		max-width: 20vw;
-	}
-
-	p{
-		margin: 1em;
-		border-radius: 5px;
-		padding: 1em;
-		background-color: #333333;
 	}
 
     h5{

@@ -61,8 +61,4 @@
 	h4{
 		font-size: small;
 	}
-	hr{
-		background-color: red;
-		max-width: 20vw;
-	}
 </style>

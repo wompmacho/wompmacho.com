@@ -2,7 +2,7 @@
 	<title>Django Site</title>
 </svelte:head>
 
-<img class="rounded" src="gif/django.gif" alt="django gif">
+<img class="shadow rounded" src="gif/django.gif" alt="django gif">
 
 <hr>
 
@@ -34,6 +34,7 @@ I have had many iterations of my personal websites. I mostly use it to collect m
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #00ff00;
     }
 
     a:hover{
@@ -44,11 +45,11 @@ I have had many iterations of my personal websites. I mostly use it to collect m
     h1{
         font-size: x-large;
         margin: 1em;
+        text-align: center;
     }
 
     img{
         width: 100%;
-        padding: 1em;
     }
 
     hr{

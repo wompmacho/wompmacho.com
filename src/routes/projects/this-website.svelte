@@ -6,7 +6,7 @@
 
 <h1>About this website</h1>
 
-<p>
+<p class="shadow rounded">
     This website was built using the Svelte/Sapper Web Framework. 
     It is deployed using Node in a GCloud hosted Docker Container. ♥
 </p>
@@ -44,6 +44,7 @@
     h1{
         font-size: x-large;
         margin: 1em;
+        text-align: center;
     }
 
     hr{

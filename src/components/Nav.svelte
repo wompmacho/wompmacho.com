@@ -27,8 +27,7 @@
 
 	nav {
 		background-color: #323233 !important;
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 400;
+		padding: 0rem 1rem !important;
 	}
 
 	ul {

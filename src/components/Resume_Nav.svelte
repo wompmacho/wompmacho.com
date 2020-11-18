@@ -4,7 +4,7 @@
 
 <ul class="navbar-nav shadow rounded">
 	<li class="rounded"><a rel=prefetch class="" aria-current="{segment === undefined ? 'page' : undefined}" href="/resume">Michael</a></li>
-	<li class="rounded"><a rel=prefetch aria-current="{segment === 'experiance' ? 'page' : undefined}" href="/resume/experiance">Experiance</a></li>
+	<li class="rounded"><a rel=prefetch aria-current="{segment === 'experience' ? 'page' : undefined}" href="/resume/experience">Experience</a></li>
     <li class="rounded"><a rel=prefetch aria-current="{segment === 'education' ? 'page' : undefined}" href="/resume/education">Education</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'esports' ? 'page' : undefined}" href="/resume/esports">Esports</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'consulting' ? 'page' : undefined}" href="/resume/consulting">Consulting</a></li>

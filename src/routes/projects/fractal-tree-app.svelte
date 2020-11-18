@@ -2,13 +2,13 @@
 	<title>Fractal Tree Java Applet</title>
 </svelte:head>
 
-<img class="rounded" src="gif/FractalTree.gif" alt="Svelte Logo">
+<img class="shadow rounded" src="gif/FractalTree.gif" alt="Svelte Logo">
 
 <hr>
 
 <h1>Fractal Tree Java Applet</h1>
 
-<p>
+<p class="shadow rounded">
     This is a simple Java application that demonstrates recursion by visualizing a fractal tree. It takes in an input for length, angle and the number of child nodes and draws to a canvas. These inputs can then be manipulated by the sliders and text field. It utilizes Java, JavaFX, FXML and CSS.
 </p>
 
@@ -33,6 +33,7 @@
 
     h1{
         font-size: x-large;
+        text-align: center;
     }
 
     img{
