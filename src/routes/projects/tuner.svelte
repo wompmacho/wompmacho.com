@@ -28,7 +28,7 @@
 
 <h5>Click on page to enable permissions and start the tuner</h5>
 
-<a rel=prefetch href="https://github.com/wompmacho/fractal-tree-draw"><i class="fab fa-github fa-3x"></i></a>
+<a rel=prefetch href="https://github.com/wompmacho/"><i class="fab fa-github fa-3x"></i></a>
 
 
 <style>
