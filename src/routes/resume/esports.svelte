@@ -10,25 +10,12 @@
 <h1>Esports</h1>
 
 <!-- Overwatch T3 Coach -->
-<h3><span class="overwatch">Overwatch</span> T3 Coach</h3>
+<h3><span class="overwatch">Esports </span>Coach</h3>
 <span class="overwatchIcon right"></span>
 
-<h4 class="">Sep 2017 - Present</h4>
+<h4 class="">Sep 2017 - Oct 2019</h4>
 <p class="shadow rounded">
-	As a T3 Overwatch Coach I have had the unique opportunity to engage with people
-	of all ages and backgrounds looking to improve, master their abilities and join the path to becoming
-	professionals in esports. I have worked closely with multiple teams and individuals and assisted
-	them in their growth in esports, strategy, planning and mindset for becoming a professional gamer. I
-	am currently coaching 4 teams actively ranging from diamond tier to T3 top 500 teams. As a streamer
-	and youtuber I have also had the unique opportunity to be exposed to the social media presence of
-	the
-	Overwatch scene and participated in many events which have helped organizations within the Overwatch
-	realm
-	grow. This has also been a great platform for me to live coach students and teams so that I can
-	reach a broader audience while also 1on1 coaching individuals. I do a lot of vod reviews and
-	educational content for teams privately with 1000+ hours of coaching ranging in skill from bronze
-	to Top 500. I strive to accomplish the goal of having every student to receive my coaching to become
-	a better player and professional in some meaningful and impactful way.
+	As a T3 Overwatch Coach I have had the unique opportunity to engage with people of all ages and backgrounds looking to improve, master their abilities and join the path to becoming professionals in esports. I have worked closely with multiple teams and individuals and assisted them in their growth in esports, strategy, planning and mindset for becoming a professional gamer. I have coached multiple teams ranging from diamond tier to T3 top 500. As a streamer and youtuber I have also had the unique opportunity to be exposed to the social media presence of the Overwatch scene and participated in many events which have helped organizations within the Overwatch realm grow. This has also been a great platform for me to live coach students and teams so that I can reach a broader audience while also 1on1 coaching individuals. I do a lot of vod reviews and educational content for teams privately with 1000+ hours of coaching ranging in skill from bronze to Top 500. I work aiming to help every student become a better player-professional in a meaningful and impactful way.
 </p>
 
 <hr>
