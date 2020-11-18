@@ -12,7 +12,7 @@
 
 <h4 class="">March 2020 - Current</h4>
 
-<p class="">
+<p class="shadow rounded">
 	Social Media Managment, Content Creation, Website Development, Design & SEO, Facebook Ads/Marketing.
 </p>
 
@@ -25,7 +25,7 @@
 
 <h4 class="">Febuary 2019 - June 2020</h4>
 
-<p class="">
+<p class="shadow rounded">
 	Social Media Managment, Website Development, Design & SEO. Tax & Licensing for Wine in multiple States. 
 </p>
 
@@ -34,10 +34,6 @@
 <style>
 	h1{
 		text-align: center;
-	}
-	hr{
-		background-color: red;
-		max-width: 20vw;
 	}
 
 	p{

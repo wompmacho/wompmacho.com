@@ -23,8 +23,6 @@
 		background-color: #252526 !important;
 		padding: 2em;
 		box-sizing: border-box;
-		margin-top: 1em;
-		margin-left: 1em;
 		width: 100%;
 		overflow: hidden;
 	}

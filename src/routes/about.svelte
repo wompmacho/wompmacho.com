@@ -2,81 +2,94 @@
 	<title>About</title>
 </svelte:head>
 
-<img class="rounded" src="./img/old_photos/desk_colored.jpg" alt="django gif">
+<img class="shadow rounded" src="./img/old_photos/desk_colored.jpg" alt="desk and assorted things">
 
-<h2>(•_•)</h2>
+<h1>(•_•)</h1>
 
 <hr>
 
-<h1>About</h1>
+<div class="spacer"></div>
 
-<div class="container">
+<div class="container shadow rounded">
+	<h2>sup</h2>
 	<p>
-		I am just some guy with a voice who is always thinking about the future. I have been interested in tech my entire life... It started out as a distant admiration for sci-fi shows, video games, learning of amazing people and amazing things. I was obsessed with space… the final frontier. New technology and the tech giants who are creating the future were my everyday bread and butter. 
-	</p>
-
-	<p>
-		This love for tech had the chance to flourish when I found my way into art and music. My artistry enveloped my highschool years. Through my guitar and music I found myself creating a recording studio at home. One thing led to another and I found myself deeply enthralled with audio engineering and building computers to handle the processing. I began tweaking little things, anything I can get my hands on... Eventually I found my way into computer science and IT. I found a new career in fixing and creating... These skills have bled into all parts of my life.
-	</p>
-
-	<p>
-		Esports and Streaming peaked my interest early on but around 2016 I found myself once again wanting to jump into something new. I found myself building machines that pushed as many frames as possible to get that bleeding edge… developing overlays and apps to improve the experience... building new and interactive ways to interact with my viewers on the live stream. 
-	</p>
-	
-	<p>
-		I began playing with virtual machines, arduino, raspberry pi, docker containers and bare-metal machines. I started hosting websites and game servers from home. I developed a community and have been working to become a better entertainer ever since I started streaming. I am always playing with some project so that I can make things better in some way and share it. 
+		I am just some guy with a voice. I have traveled up and down many slopes in life and lived in many places… Found myself in unique situations, surrounded by vastly diverse people…
+		I like tech. I like playing with new things, projects, ideas… 
+		<br><br>
+		Space related things get me randy.
 	</p>
 </div>
 
-<h3>
-	It's crazy how much you can find around you to tweak and make better if you just bother looking. 
-</h3>
+<div class="spacer"></div>
 
-<h4>
-	I don’t plan on stopping.
-</h4>
+<div class="container shadow rounded">
+	<h2>Q&A</h2>
+	<p>
+		<question>You should be/are you a voice Actor?!</question>
+		<answer>I am not, but am interested. business inquiries at wompmacho@gmail.com</answer>
+		<question>Why are you wearing glasses?</question>
+		<answer>Cause I’m pretty… also cause when i started streaming i had very bad lights and they were blinding and idk… it became a thing.</answer>
+		<question>Where are you from?</question>
+		<answer>All over. Alabama, Georgia, Pennsylvania, New York, North Carolina, United Kingdom. I grew up in many places. </answer>
+		<question>How old are you?</question>
+		<answer>no u</answer>
+		<question>Why WompMacho?</question>
+		<answer>cuz waz drunk and game we were playing cut my dumb name choice to this and for whatever reason it was hilarious at the time</answer>
+		<question>How Long Have You Been Streaming?</question>
+		<answer>I dabbeled on and off on another channel... but I truely started in Sep 2016</answer>
+	</p>
+</div>
+
+<div class="spacer"></div>
 
 <hr>
 
 <style>
+	.spacer{
+		margin: 2em;
+	}
+
+	question{
+		display: block;
+		width: 100%;
+		font-weight: 700;
+	}
+
+	answer{
+		display: block;
+		width: 100%;
+		padding-bottom: 1em;
+	}
+
 	img{
         width: 100%;
-        padding: 1em;
     }
 
 	.container{
-		display: inline-flexbox;
-	}
-
-	p{
-		margin: 1em;
-		border-radius: 5px;
 		padding: 1em;
+		display: inline-flexbox;
 		background-color: #333333;
 	}
 
+	p{
+		margin: auto;
+		padding: 2em;
+		min-width: 40vw;
+	}
+
 	h1{
-		font-size: larger;
+		font-size: xx-large;
 		text-align: center;
-		margin: 1em;
+		display: block;
+		padding: 1em;
+		font-weight: 900;
 	}
 
 	h2{
-		font-size: large;
+		font-size: x-large;
 		text-align: center;
 		display: block;
-	}
-
-	h3{
-		margin: 1em;
-		font-size: medium;
-		text-align: center;
-	}
-
-	h4{
-		margin: 1em;
-		font-size: medium;
-		text-align: center;
+		font-weight: 600;
 	}
 
 	hr{

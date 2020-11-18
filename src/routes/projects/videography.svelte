@@ -2,14 +2,15 @@
 	<title>Videography</title>
 </svelte:head>
 
-<div class="container">
+<div class="container shadow rounded">
 	<iframe rel="prefetch" title="Real Estate Video" alt="Real Estate Video" src="https://www.youtube.com/embed/-DN8mhOxeKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 <hr>
 
 <h1>Videography</h1>
 
-<p>
+<p class="shadow rounded">
 	I do Real Estate Videography. 
 	You can find some of my clients videos on YouTube
 </p>
@@ -55,6 +56,7 @@
     h1{
         font-size: x-large;
         margin: 1em;
+		text-align: center;
     }
 
 	h3{

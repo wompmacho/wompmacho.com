@@ -8,31 +8,48 @@
 
 <h1>JavaScript Guitar Tuner</h1>
 
-<p>
-    JavaScript web app that uses a microphone as input and
-    displays frequency, note and a helper line to assist in
-    tuning accuracy. Everything is drawn on a canvas including
-    the background guitar image.
-</p>
-
-<p>
-    Application utilizes P5.js library as
-    well as ML5.js for a pitch detection assistance.
-    Additionally notes and frequencies are fetched via a JSON
-    library hosted on Github.
-</p>
+<div class="container shadow rounded">
+    <p>
+        JavaScript web app that uses a microphone as input and
+        displays frequency, note and a helper line to assist in
+        tuning accuracy. Everything is drawn on a canvas including
+        the background guitar image.
+    </p>
+    
+    <p>
+        Application utilizes P5.js library as
+        well as ML5.js for a pitch detection assistance.
+        Additionally notes and frequencies are fetched via a JSON
+        library hosted on Github.
+    </p>
+</div>
 
 <hr>
 
 <h5>Click on page to enable permissions and start the tuner</h5>
 
+<a rel=prefetch href="https://github.com/wompmacho/fractal-tree-draw"><i class="fab fa-github fa-3x"></i></a>
+
+
 <style>
-	p{
-		margin: 1em;
-		border-radius: 5px;
-		padding: 1em;
+    a{
+        margin-top: 1em;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #00ff00;
+    }
+    
+    a:hover{
+        background-color: #1e1e1e;
+        color: red;
+    }
+
+    .container{
+        padding: 1em;
 		background-color: #333333;
-	}
+    }
 
     #tuner_sketch{
         height: 50vh;
@@ -48,6 +65,7 @@
     h1{
         font-size: x-large;
         margin: 1em;
+        text-align: center;
     }
 
     h5{
@@ -57,8 +75,6 @@
         text-align: center;
     }
 </style>
-
-
 
 <script>
     import { onMount } from "svelte";

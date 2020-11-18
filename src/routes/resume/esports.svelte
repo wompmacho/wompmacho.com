@@ -14,7 +14,7 @@
 <span class="overwatchIcon right"></span>
 
 <h4 class="">Sep 2017 - Present</h4>
-<p>
+<p class="shadow rounded">
 	As a T3 Overwatch Coach I have had the unique opportunity to engage with people
 	of all ages and backgrounds looking to improve, master their abilities and join the path to becoming
 	professionals in esports. I have worked closely with multiple teams and individuals and assisted
@@ -37,7 +37,7 @@
 <h3><span class="skycru">Skycru Alpha</span> Esports Captain</h3>
 <span class="skycruIcon right"></span>
 <h4>October 2017 - May 2018</h4>
-<p>
+<p class="shadow rounded">
 	As captain of Skycru Esports Alpha team I worked diligently to motivate, coordinate and inspire
 	young individuals working to go pro in the Overwatch scene. Coordinating with coaches and management
 	I helped bring together 4.3K sr T3 team that participated in the following tournaments.</p>
@@ -46,7 +46,7 @@
 	<li>ZOTAC CUP Overwatch Community Tournament #16 - North America</li>
 	<li>ZOTAC CUP Overwatch Community Tournament #19 - North America</li>
 </ul>
-<p>
+<p class="shadow rounded">
 	As captain I devised schedules, scrim plans, provided scouting, planned compositions and worked with
 	coaches to create strategies. With past experience, provided technical support to players and
 	streamers, worked as an analyst, provided social media management and graphic design for the team. I
@@ -67,5 +67,7 @@
 	hr{
 		background-color: red;
 		max-width: 20vw;
+		margin-top: 2em;
+		margin-bottom: 2em;
 	}
 </style>
