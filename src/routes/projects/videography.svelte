@@ -21,7 +21,7 @@
 
 <hr>
 
-<a class="rounded bottom_link" rel=prefetch href="media.wompmacho.com"><i class="fab fa-youtube fa-3x"></i></a>
+<a class="rounded bottom_link" rel=prefetch href="https://media.wompmacho.com"><i class="fab fa-youtube fa-3x"></i></a>
 
 <style>
 	.container{
