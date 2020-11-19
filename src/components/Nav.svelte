@@ -54,16 +54,8 @@
 	[aria-current] {
 		position: relative;
 		display: inline-block;
-	}
-
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: .3em;
 		background-color: #161616;
-		display: block;
-		bottom: 0px;
+		width: 100%;
 	}
 
 	a {
@@ -72,4 +64,8 @@
 		padding: 1em 0.5em;
 		display: block;
 	}
+
+	@media only screen and (max-width: 769px) {
+		
+    }
 </style>

@@ -12,6 +12,8 @@
 	<h4>2012-2017</h4>
 </div>
 
+<div class="spacer"></div>
+
 <!-- Pennridge R.C. High School | Perkasie, PA  -->
 <div class="">
 	<h3>Pennridge R.C. High School | Perkasie, PA</h3>
@@ -20,7 +22,11 @@
 	<h4>2004 – 2009</h4>
 </div>
 
+<div class="spacer"></div>
+
 <hr>
+
+<div class="spacer"></div>
 
 <!-- Certifications -->
 <h1>Certifications</h1>
@@ -33,6 +39,8 @@
 	<h4>February 2014 – February 2019</h4>
 </div>
 
+<div class="spacer"></div>
+
 <!-- SUSE CLA -->
 <div class="">
 	<h3>SUSE Certified Linux Administrator (SUSE CLA)</h3>
@@ -40,6 +48,8 @@
 	<h4>SUSE Linux Enterprise Server 11, Certification ID number: 10251725</h4>
 	<h4>February 2014 – February 2019</h4>
 </div>
+
+<div class="spacer"></div>
 
 <!-- SMALL UNMANNED AIRCRAFT SYSTEM -->
 <div class="">
@@ -51,14 +61,28 @@
 
 <hr>
 
+<div class="spacer"></div>
+
+<a class="" href="https://storage.googleapis.com/womp-website_cloudbuild/cdn/womp-website/pdf/Resume-Michael-Braicu-Full.pdf" title="Resume"><button type="button" class="btn btn-dark shadow rounded">Resume PDF</button></a>
+
+
 <style>
+	a{	
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+
+	.spacer{
+		padding: 1em;
+	}
 	h1{
 		text-align: center;
 	}
 	h3{
-		font-size: large;
+		font-size: larger;
 	}
 	h4{
-		font-size: small;
+		font-size: medium;
 	}
 </style>

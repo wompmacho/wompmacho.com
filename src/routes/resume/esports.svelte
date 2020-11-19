@@ -40,7 +40,19 @@
 	also worked as a player development coach providing counselling and dispute management.
 </p>
 
+<hr>
+
+<div class="spacer"></div>
+
+<a class="" href="https://storage.googleapis.com/womp-website_cloudbuild/cdn/womp-website/pdf/Resume-Michael-Braicu-Full.pdf" title="Resume"><button type="button" class="btn btn-dark shadow rounded">Resume PDF</button></a>
+
 <style>
+	a{	
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	
 	p{
 		margin: 1em;
 		border-radius: 5px;

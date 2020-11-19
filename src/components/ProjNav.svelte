@@ -53,4 +53,13 @@
 		background-color: #161616;
 		font-weight: 700;
 	}
+
+	@media only screen and (max-width: 769px) {
+        .navbar-nav{
+			flex-direction: column;
+			text-align: center;
+			width: max-content;
+			margin: auto;
+        }
+    }
 </style>

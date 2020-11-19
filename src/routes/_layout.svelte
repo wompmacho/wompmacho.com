@@ -14,6 +14,7 @@
 		box-sizing: border-box;
 		margin-top: 1em;
 	}
+
 	.spacer{
 		height: 5vh;
 	}
