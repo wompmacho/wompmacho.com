@@ -1,15 +1,40 @@
 <svelte:head>
-	<title>Experience</title>
+	<title>Consulting & Experience</title>
 </svelte:head>
 
+<!-- Consulting -->
+<h1>Consulting</h1>
+
+<h3 class="">
+	Media - <span class="">Melanie Colley Realty</span>
+</h3>
+<span class="iconHere"></span>
+
+<h4 class="">March 2020 - Current</h4>
+
+<p class="shadow rounded">
+	Social Media Managment, Content Creation, Website Development, Design & SEO, Facebook Ads/Marketing.
+</p>
+
+<h3 class="">
+	Media - <span class="">Tabora Farms & Winery</span>
+</h3>
+<span class="iconHere"></span>
+
+<h4 class="">Febuary 2019 - June 2020</h4>
+
+<p class="shadow rounded">
+	Social Media Managment, Website Development, Design & SEO. Tax & Licensing for Wine in multiple States. 
+</p>
+
+<hr>
 
 <h1>Experience</h1>
-
 
 <!-- Datacenter Operations Engineer -->
 <h3 class="">
 	Datacenter Operations Engineer -
-	<span class="twitter"><span class="google" style='color:#156aeb'>Twitter</span></span>
+	<span class="twitter"><span class="google" style='color:#156aeb; font-weight: 600;'>Twitter</span></span>
 	<span class="inc">Inc.</span>
 </h3>
 <span class="twitterIcon right"></span>
@@ -31,7 +56,7 @@
 
 <!-- Site Operations (STA) -->
 <h3 class="">Site Operations (STA) -
-	<span class="twitter"><span class="google" style='color:#156aeb'>Twitter</span></span>
+	<span class="twitter"><span class="google" style='color:#156aeb; font-weight: 600;'>Twitter</span></span>
 	<span class="inc">Inc.</span>
 </h3>
 
@@ -116,8 +141,22 @@
 <p class="shadow rounded">Tabora Farms & Orchard was a family owned bussiness. I was responsible for cleaning and maintaining a bakery and deli. I performed janitorial duties as well as assisting customers in finding their products. In this family owned business I assisted in ice cream production, cider production, picking and sorting fruits and vegetables, caring for animal livestock, stocking, baking, planting and groundskeeping. I worked hard to maintain an efficient workflow and a friendly environment in the hopes of always attracting more customers. I assisted in all work to be performed at a bakery from selling goods at local farmers markets to rolling dough for pies. I strived to work hard and benefit my employer and grandfather at this wonderful country shoppe in the rolling hills of Pennsylvania.
 </p>
 
+<hr>
+
+<a class="" href="https://storage.googleapis.com/womp-website_cloudbuild/cdn/womp-website/pdf/Resume-Michael-Braicu-Full.pdf" title="Resume"><button type="button" class="btn btn-dark shadow rounded">Resume PDF</button></a>
+
 
 <style>
+	a{
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	
+	.spacer{
+		padding: 2em;
+	}
+
 	p{
 		margin: 1em;
 		border-radius: 5px;
@@ -127,12 +166,5 @@
 	
 	h1{
 		text-align: center;
-	}
-
-	hr{
-		background-color: red;
-		max-width: 20vw;
-		margin-top: 2em;
-		margin-bottom: 2em;
 	}
 </style>

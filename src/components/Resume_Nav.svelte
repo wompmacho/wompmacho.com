@@ -7,7 +7,6 @@
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'experience' ? 'page' : undefined}" href="/resume/experience">Experience</a></li>
     <li class="rounded"><a rel=prefetch aria-current="{segment === 'education' ? 'page' : undefined}" href="/resume/education">Education</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'esports' ? 'page' : undefined}" href="/resume/esports">Esports</a></li>
-	<li class="rounded"><a rel=prefetch aria-current="{segment === 'consulting' ? 'page' : undefined}" href="/resume/consulting">Consulting</a></li>
     <li class="rounded"><a rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="/projects" data-toggle="tooltip" title="This will take you away from this page.">Projects</a></li>
 </ul>
 
@@ -46,5 +45,15 @@
 		position: relative;
 		display: inline-block;
 		background-color: #161616;
+		width: 100%;
 	}
+
+	@media only screen and (max-width: 769px) {
+        .navbar-nav{
+			flex-direction: column;
+			text-align: center;
+			width: max-content;
+			margin: auto;
+        }
+    }
 </style>
