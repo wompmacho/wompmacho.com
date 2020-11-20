@@ -8,8 +8,6 @@
 
 <hr>
 
-<div class="spacer"></div>
-
 <div class="container shadow rounded">
 	<h2>sup</h2>
 	<p>
@@ -20,7 +18,11 @@
 	</p>
 </div>
 
-<div class="spacer"></div>
+<hr>
+
+<img class="shadow rounded" src="./img/old_photos/headphonesColorized2.jpg" alt="desk and assorted things">
+
+<hr>
 
 <div class="container shadow rounded">
 	<h2>Q&A</h2>
@@ -40,15 +42,9 @@
 	</p>
 </div>
 
-<div class="spacer"></div>
-
 <hr>
 
 <style>
-	.spacer{
-		margin: 2em;
-	}
-
 	question{
 		display: block;
 		width: 100%;
@@ -81,7 +77,7 @@
 		font-size: xx-large;
 		text-align: center;
 		display: block;
-		padding: 1em;
+		padding-top: 1em;
 		font-weight: 900;
 	}
 

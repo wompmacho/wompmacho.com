@@ -5,6 +5,7 @@
 
 <div class="innerMain">
 	<ProjNav {segment}></ProjNav>
+	<br><br>
 	<main class="shadow p-3 mb-5 bg-white rounded">
 		<slot></slot>
 	</main>

@@ -18,22 +18,14 @@
 	.spacer{
 		height: 5vh;
 	}
-
-	hr{
-		background-color: red;
-		max-width: 20vw;
-		margin-top: 2em;
-		margin-bottom: 2em;
-	}
 </style>
 
 <Nav {segment}></Nav>
 
-<main class="shadow rounded p-3 ">
+<main class="shadow rounded p-3">
 	<slot></slot>
 </main>
 
 <div class="spacer"></div>
-
 
 <Footer></Footer>

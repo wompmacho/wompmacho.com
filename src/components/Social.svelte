@@ -22,4 +22,10 @@
     a:hover{
         color: red;
     }
+
+    @media only screen and (max-width: 769px) {
+		.social{
+			padding: 1em;
+		}
+    }
 </style>
