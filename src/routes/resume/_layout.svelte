@@ -5,12 +5,12 @@
 
 
 <ResumeNav {segment}></ResumeNav>
-
+<br><br>
 <main class="shadow p-3 mb-5 bg-white rounded">
 	<slot></slot>
 </main>
 
-<div class="spacer"></div>
+<div class="added_space"></div>
 
 <style>
 	main {
@@ -23,7 +23,7 @@
 		margin-top: 1em;
 	}
 
-	.spacer{
+	.added_space{
 		height: 5vh;
 	}
 </style>

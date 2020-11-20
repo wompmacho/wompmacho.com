@@ -6,7 +6,7 @@
 <h1>Consulting</h1>
 
 <h3 class="">
-	Media - <span class="">Melanie Colley Realty</span>
+	Media - <span class="company_name">Melanie Colley Realty</span>
 </h3>
 <span class="iconHere"></span>
 
@@ -17,7 +17,7 @@
 </p>
 
 <h3 class="">
-	Media - <span class="">Tabora Farms & Winery</span>
+	Media - <span class="company_name">Tabora Farms & Winery</span>
 </h3>
 <span class="iconHere"></span>
 
@@ -34,7 +34,7 @@
 <!-- Datacenter Operations Engineer -->
 <h3 class="">
 	Datacenter Operations Engineer -
-	<span class="twitter"><span class="google" style='color:#156aeb; font-weight: 600;'>Twitter</span></span>
+	<span class="twitter"><span class="company_name" style='color:#156aeb;'>Twitter</span></span>
 	<span class="inc">Inc.</span>
 </h3>
 <span class="twitterIcon right"></span>
@@ -56,7 +56,7 @@
 
 <!-- Site Operations (STA) -->
 <h3 class="">Site Operations (STA) -
-	<span class="twitter"><span class="google" style='color:#156aeb; font-weight: 600;'>Twitter</span></span>
+	<span class="twitter"><span class="company_name" style='color:#156aeb;'>Twitter</span></span>
 	<span class="inc">Inc.</span>
 </h3>
 
@@ -81,12 +81,12 @@
 
 <!-- Operations Technician -->
 <h3 class="">Operations Technician -
-	<span class="google" style='color:#156aeb'>G</span>
-	<span class="google" style='color:#da4531'>o</span>
-	<span class="google" style='color:#ffba02'>o</span>
-	<span class="google" style='color:#176dee'>g</span>
-	<span class="google" style='color:#019e5a'>l</span>
-	<span class="google" style='color:#d94530'>e</span>
+	<span class="google company_name" style='color:#156aeb'>G</span>
+	<span class="google company_name" style='color:#da4531'>o</span>
+	<span class="google company_name" style='color:#ffba02'>o</span>
+	<span class="google company_name" style='color:#176dee'>g</span>
+	<span class="google company_name" style='color:#019e5a'>l</span>
+	<span class="google company_name" style='color:#d94530'>e</span>
 	<span class="inc">Inc.</span>
 </h3>
 <span class="googleIcon right "></span>
@@ -106,7 +106,7 @@
 <hr>
 
 <!-- Pet Care Specialist - Fins Feathers Paws & Claws  -->
-<h3 class="">Pet Care Specialist - <span class="fins_feathers_paws_and_claws">Fins Feathers Paws &
+<h3 class="">Pet Care Specialist - <span class="company_name">Fins Feathers Paws &
 		Claws</span>
 </h3>
 <h4 class="">August 2010 – April 2011</h4>
@@ -125,7 +125,7 @@
 <hr>
 
 <!-- Assistant Store Manager - Half Note Cards & Gifts  -->
-<h3 class="">Assistant Store Manager - <span class="tabora">Half Note Cards & Gifts</span>
+<h3 class="">Assistant Store Manager - <span class="company_name">Half Note Cards & Gifts</span>
 </h3>
 <h4 class="">March 2007 - May 2009</h4>
 <p class="shadow rounded">
@@ -135,7 +135,7 @@
 <hr>
 
 <!-- General Laborer - Tabora Farms & Orchard  -->
-<h3 class="">General Laborer - <span class="tabora">Tabora Farms & Orchard</span>
+<h3 class="">General Laborer - <span class="company_name">Tabora Farms & Orchard</span>
 </h3>
 <h4 class="">June 2004 – September 2006</h4>
 <p class="shadow rounded">Tabora Farms & Orchard was a family owned bussiness. I was responsible for cleaning and maintaining a bakery and deli. I performed janitorial duties as well as assisting customers in finding their products. In this family owned business I assisted in ice cream production, cider production, picking and sorting fruits and vegetables, caring for animal livestock, stocking, baking, planting and groundskeeping. I worked hard to maintain an efficient workflow and a friendly environment in the hopes of always attracting more customers. I assisted in all work to be performed at a bakery from selling goods at local farmers markets to rolling dough for pies. I strived to work hard and benefit my employer and grandfather at this wonderful country shoppe in the rolling hills of Pennsylvania.
@@ -152,10 +152,6 @@
 		text-align: center;
 		margin: auto;
 	}
-	
-	.spacer{
-		padding: 2em;
-	}
 
 	p{
 		margin: 1em;
@@ -166,5 +162,9 @@
 	
 	h1{
 		text-align: center;
+	}
+
+	.company_name{
+		font-weight: 600;
 	}
 </style>

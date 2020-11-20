@@ -37,6 +37,10 @@ hr{
 	margin-bottom: 2em;
 }
 
+.spacer{
+	height: 2em;
+}
+
 @media (min-width: 400px) {
 	body {
 		font-size: 16px;

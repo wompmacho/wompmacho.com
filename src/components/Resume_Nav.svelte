@@ -7,7 +7,6 @@
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'experience' ? 'page' : undefined}" href="/resume/experience">Experience</a></li>
     <li class="rounded"><a rel=prefetch aria-current="{segment === 'education' ? 'page' : undefined}" href="/resume/education">Education</a></li>
 	<li class="rounded"><a rel=prefetch aria-current="{segment === 'esports' ? 'page' : undefined}" href="/resume/esports">Esports</a></li>
-    <li class="rounded"><a rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="/projects" data-toggle="tooltip" title="This will take you away from this page.">Projects</a></li>
 </ul>
 
 <style>
@@ -34,7 +33,6 @@
 
 	li {
 		display: block;
-		float: left;
 	}
 	
 	li:hover {
@@ -55,5 +53,9 @@
 			width: max-content;
 			margin: auto;
         }
+
+		li{
+			box-shadow: 0px 0px 5px #000000;
+		}
     }
 </style>

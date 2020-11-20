@@ -61,5 +61,9 @@
 			width: max-content;
 			margin: auto;
         }
+
+		li{
+			box-shadow: 0px 0px 5px #000000;
+		}
     }
 </style>

@@ -4,7 +4,7 @@
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<li class="nav-item rounded"><a class="nav-item" rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" href=".">WompMacho</a></li>
+	<li class="nav-item rounded brand"><a class="nav-item" rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" href=".">WompMacho</a></li>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
@@ -13,12 +13,11 @@
 	  <ul class="navbar-nav mr-auto">
 		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About</a></li>
 		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'livestream' ? 'page' : undefined}" href="livestream">Live Stream</a></li>
-		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">Fun Stuff</a></li>
+		<li class="nav-item rounded"><a class="nav-link" rel=prefetch aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">Projects</a></li>
 	  </ul>
 	  <Social></Social>
 	</div>
   </nav>
-
 <style>
 
 	.navbar-collapse{
@@ -66,6 +65,8 @@
 	}
 
 	@media only screen and (max-width: 769px) {
-		
+		.nav-link{
+			box-shadow: 0px 0px 2px #000000;
+		}
     }
 </style>
